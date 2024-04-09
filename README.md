@@ -2,6 +2,12 @@
 
 Brief description of the project.
 
+
+## 
+https://github.com/jasprit/MovieMagic/blob/main/Screenshot_1.png
+![Screenshot 1](https://github.com/jasprit/MovieMagic/blob/main/Screenshot_1.png)
+![Screenshot 2](https://github.com/jasprit/MovieMagic/blob/main/Screenshot_2.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
