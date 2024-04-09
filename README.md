@@ -1,4 +1,4 @@
-# Project Title
+# MovieMagic-Compose
 
 This is a jetpack compose android native app. 
 
