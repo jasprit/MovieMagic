@@ -1,10 +1,10 @@
 # Project Title
 
-Brief description of the project.
+This is a jetpack compose android native app. 
 
 
 ## 
-![Screenshot 1](https://github.com/jasprit/MovieMagic/blob/main/screenshot_1.png)
+![Screenshot 1](https://github.com/jasprit/MovieMagic/blob/main/screenshot_.png)
 
 
 ## Table of Contents
