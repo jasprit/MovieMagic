@@ -4,7 +4,7 @@ Brief description of the project.
 
 
 ## 
-![Screenshot 1](https://github.com/jasprit/MovieMagic/blob/main/screenshot_1.png)
+![Screenshot 1](https://github.com/jasprit/MovieMagic/blob/main/screenshot_.png)
 
 
 ## Table of Contents
