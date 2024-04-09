@@ -1,69 +1,44 @@
 # MovieMagic-Compose
+Welcome to MovieMagic-Compose, an Android app built using Jetpack Compose in Kotlin. This app allows users to discover new movies and search for their favorite titles.
 
-This is a jetpack compose android native app. 
 
-
-## 
 ![Screenshot 1](https://github.com/jasprit/MovieMagic/blob/main/screenshot_.png)
-
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Dependencies](#dependencies)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-Provide an overview of the project, its purpose, and the problem it solves.
 
 ## Features
 
-List the key features of your application. For example:
-- Fetching movies from a remote API.
-- Searching for movies based on title or year.
-- Displaying movie details.
-- etc.
+- Fetches new movies from a remote API.
+- Enables users to search for movies based on title or year.
+- Displays detailed information about each movie.
+- Provides a clean and intuitive user interface.
 
 ## Architecture
 
-Explain the architecture of your project. For example:
-- **MVVM**: Model-View-ViewModel architecture for separating concerns.
+MovieMagic-Compose follows a modern architecture pattern, including:
+- **MVVM**: Model-View-ViewModel architecture for separation of concerns.
 - **Clean Architecture**: Clear separation of layers like domain, data, and presentation.
-- **Kotlin Coroutines**: For asynchronous programming.
-- etc.
+- **Kotlin Coroutines**: Asynchronous programming for handling network requests and background tasks.
+- **Dependency Injection**: Utilizes Koin for managing dependencies and improving testability.
 
 ## Dependencies
 
-List the major dependencies used in your project along with their purpose. For example:
+Major dependencies used in this project:
 - Retrofit: For making network requests.
 - Coil: For loading images from URLs.
 - ViewModel & LiveData: For implementing MVVM architecture.
-- koin: For Dependency Injection
-- etc.
+- Koin: For Dependency Injection.
 
 ## Getting Started
 
-Provide instructions on how to set up and run your project locally. Include steps for:
-- Cloning the repository.
-- Setting up API keys (if necessary).
-- Running the project on an emulator or device.
+To run MovieMagic-Compose locally, follow these steps:
+1. Clone the repository to your local machine.
+2. Obtain an API key from [OMDb API](http://www.omdbapi.com/apikey.aspx).
+3. Replace `"YOUR_API_KEY"` with your actual API key in the project.
+4. Run the project on an emulator or device using Android Studio.
 
 ## Usage
 
-Provide examples or code snippets demonstrating how to use your project. For example:
+Here are some examples of how to use MovieMagic-Compose:
 ```kotlin
-
-//Get Api key from this website
-- Documentation: http://www.omdbapi.com/
-- Free API key: http://www.omdbapi.com/apikey.aspx
-
 // Fetch movies from the API
 viewModel.getMovies()
 
