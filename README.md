@@ -1,6 +1,6 @@
 # Project Title
 
-Brief description of the project.
+This is a jetpack compose android native app. 
 
 
 ## 
