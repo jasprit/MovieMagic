@@ -2,7 +2,7 @@
 Welcome to MovieMagic-Compose, an Android app built using Jetpack Compose in Kotlin. This app allows users to discover new movies and search for their favorite titles.
 
 
-![Screenshot 1](https://github.com/jasprit/MovieMagic/blob/main/screenshot_.png)
+![Screenshot 1](https://github.com/jasprit/MovieMagic/blob/main/screenshot-1.png)
 
 ## Features
 
