@@ -59,6 +59,11 @@ Provide instructions on how to set up and run your project locally. Include step
 
 Provide examples or code snippets demonstrating how to use your project. For example:
 ```kotlin
+
+//Get Api key from this website
+- Documentation: http://www.omdbapi.com/
+- Free API key: http://www.omdbapi.com/apikey.aspx
+
 // Fetch movies from the API
 viewModel.getMovies()
 
