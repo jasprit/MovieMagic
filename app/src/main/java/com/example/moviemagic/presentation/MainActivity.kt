@@ -227,7 +227,7 @@ fun PlaceholderContent() {
 fun GreetingPreview() {
 	MovieMagicTheme {
 		Column {
-		
+			//Test your views here.
 		}
 	}
 }
