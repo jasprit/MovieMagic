@@ -12,13 +12,17 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.SearchBar
@@ -144,12 +148,31 @@ fun MovieItem(movie: Movie) {
 			.padding(16.dp)
 	) {
 		
-		if (movie.poster.isNotEmpty() && movie.poster != "N/A") {
-			ImageContent(movie.poster)
-		} else {
-			PlaceholderContent()
+		Box {
+			if (movie.poster.isNotEmpty() && movie.poster != "N/A") {
+				ImageContent(movie.poster)
+			} else {
+				PlaceholderContent()
+			}
+			Surface(
+				color = Color.White.copy(alpha = 0.6f),
+				shape = CircleShape,
+				modifier = Modifier
+					.align(Alignment.Center)
+					.padding(8.dp)
+			) {
+				IconButton(
+					onClick = { /* Handle button click */ },
+					modifier = Modifier.size(48.dp)
+				) {
+					Icon(
+						Icons.Default.PlayArrow,
+						contentDescription = "Play",
+						tint = Color.Black
+					)
+				}
+			}
 		}
-		
 		Text(
 			text = movie.title,
 			color = Color.Black,
