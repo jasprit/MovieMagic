@@ -7,7 +7,6 @@ import retrofit2.http.Query
 
 interface ApiService {
 	
-	
 	@GET("/")
 	suspend fun getMovies(
 		@Query("s") query: String = "new", @Query("type") type: String = "movie",
@@ -15,4 +14,3 @@ interface ApiService {
 		@Query("apiKey") apiKey: String = "ec8a996",
 	): SearchResult
 }
-

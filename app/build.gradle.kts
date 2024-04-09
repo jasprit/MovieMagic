@@ -79,8 +79,5 @@ dependencies {
 	implementation (libs.coil.compose)
 	
 	// Jetpack Compose
-	implementation(libs.androidx.runtime.livedata) // for LiveData integration
-
-	//Shimmer
-	implementation(libs.compose.shimmer)
+	implementation(libs.androidx.runtime.livedata)
 }
