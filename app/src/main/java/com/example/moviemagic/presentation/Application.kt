@@ -1,7 +1,7 @@
-package com.example.moviemagic
+package com.example.moviemagic.presentation
 
 import android.app.Application
-import com.example.moviemagic.di.appModule
+import com.example.moviemagic.presentation.di.appModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

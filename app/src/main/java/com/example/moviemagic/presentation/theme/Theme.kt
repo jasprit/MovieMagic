@@ -1,4 +1,4 @@
-package com.example.moviemagic.ui.theme
+package com.example.moviemagic.presentation.theme
 
 import android.app.Activity
 import android.os.Build

@@ -1,4 +1,4 @@
-package com.example.moviemagic
+package com.example.moviemagic.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -43,8 +43,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberImagePainter
 import com.example.moviemagic.domain.Movie
-import com.example.moviemagic.ui.theme.MovieMagicTheme
-import com.example.moviemagic.viewmodel.MoviesViewModel
+import com.example.moviemagic.presentation.theme.MovieMagicTheme
+import com.example.moviemagic.presentation.viewmodel.MoviesViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : ComponentActivity() {
